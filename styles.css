@@ -50,7 +50,7 @@ body {
   width: 100%;
   text-align: center;
   /*padding: 50px 20px 150px;*/
-  background-image: url(ruta/a/STD_0011.jpg);
+  background-image: url(ruta/a/STD_0011.JPG);
   background-size: cover;
   background-position: center;
 }
@@ -336,7 +336,7 @@ html {
     height: 100vh;
     width: auto;
     text-align: center;
-    background-image: url(ruta/a/STD_0011.jpg);
+    background-image: url(ruta/a/STD_0011.JPG);
     background-size: cover;
     color: #393939;
     position: relative;
