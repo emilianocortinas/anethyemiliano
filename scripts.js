@@ -31,7 +31,7 @@ function openInvitation() {
 
   if (screen.orientation && screen.orientation.lock) {
   screen.orientation.lock('portrait').catch(function(error) {
-    console.warn('No se pudo bloquear la orientación:', error);
+    alert('No se pudo bloquear la orientación:', error);
   });
 }
   document.querySelector('.envelope').style.display = 'none';
@@ -50,7 +50,7 @@ function openInvitation() {
       console.log("No se pudo reproducir automáticamente:", e);
     });
     //song.volume = 0.05; // 10% del volumen máximo
-    song.volume = 0.00; // 10% del volumen máximo
+    song.volume = 0.05; // 10% del volumen máximo
   }
 
   // Esperar a que el DOM repinte el contenido antes de hacer scroll
