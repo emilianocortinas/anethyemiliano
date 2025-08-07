@@ -28,6 +28,12 @@ function startCountdown() {
 
 function openInvitation() {
   // Oculta el sobre o portada
+
+  if (screen.orientation && screen.orientation.lock) {
+  screen.orientation.lock('portrait').catch(function(error) {
+    console.warn('No se pudo bloquear la orientación:', error);
+  });
+}
   document.querySelector('.envelope').style.display = 'none';
 
   // Muestra la invitación
