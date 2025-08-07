@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Invitación de Boda</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Fuentes elegantes -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Parisienne&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Autour+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="ruta/a/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="ruta/a/favicon.png">
+</head>
+
+<body>
+  <!-- Música de fondo -->
+  <audio id="weddingSong" src="ruta/a/thousandyears.mp3" preload="auto" loop></audio>
+
+  <!-- Sobre interactivo -->
+  <div class="envelope" onclick="openInvitation()">
+    <img src="ruta/a/sobre.png" alt="Sobre de invitación" />
+    <p>Haz clic para abrir la invitación</p>
+  </div>
+
+
+  <!-- Contenido de la invitación -->
+  <div id="invitation" class="hidden">
+
+
+
+    <section id="canvas" class="hero">
+      <!--<p class="fechaboda">16 OCTUBRE 2026</p>
+      <div class="countdown" id="countdown">
+        <div><span id="days">0</span><small>Días</small></div>
+        <div><span id="hours">0</span><small>Horas</small></div>
+        <div><span id="minutes">0</span><small>Minutos</small></div>
+        <div><span id="seconds">0</span><small>Segundos</small></div>
+      </div>-->
+      <img src="ruta/a/favicon.png" alt="Imagen que sube" />
+    </section>
+
+    <section id="msg_inicio" class="msg_inicio">
+
+    </section>
+
+    <section id="fotoap1" class="fotoap1">
+
+    </section>
+
+    <section id="hoja1" class="hoja1">
+
+    </section>
+
+    <section id="hoja2" class="hoja2">
+
+    </section>
+
+    <section id="contador" class="contador">
+      <div class="SaveTheDate" id="SaveTheDate"><p>Save The Date</p></div>
+      <div class="countdown" id="countdown">
+        <div><span id="days">0</span><small>Días</small></div>
+        <div><span id="hours">0</span><small>Horas</small></div>
+        <div><span id="minutes">0</span><small>Minutos</small></div>
+        <div><span id="seconds">0</span><small>Segundos</small></div>
+      </div>
+    </section>
+
+    <section class="itinerary">
+    </section>
+
+
+    <section class="polaroid-container">
+      <img class="polaroid foto1" src="ruta/a/STD_06.png">
+      <img class="polaroid foto2" src="ruta/a/STD_07.png">
+      <img class="polaroid foto3" src="ruta/a/STD_08.png">
+      <img class="polaroid foto4" src="ruta/a/STD_09.png">
+    </section>
+
+
+    <section id="reg_cv" class="reg_cv">
+
+    </section>
+
+    <section id="fotoapfinal" class="fotoapfinal">
+
+    </section>
+
+    <!--<section class="weather">
+      <h2>Clima Esperado</h2>
+      <p>Mayormente soleado, 25°C</p>
+    </section>
+
+    <section class="dress-code">
+      <h2>Código de Vestimenta</h2>
+      <p>Formal: Traje oscuro para caballeros, vestido largo para damas.</p>
+    </section>
+
+    <section class="details">
+      <h2>Detalles de la Invitación</h2>
+      <p>Invitados: 100</p>
+      <p>Mesa Asignada: Mesa 5</p>
+    </section>
+
+    <section class="gifts">
+      <h2>Sugerencias de Regalos</h2>
+      <ul>
+        <li>Electrodomésticos</li>
+        <li>Artículos para el hogar</li>
+        <li>Contribuciones monetarias</li>
+      </ul>
+    </section>
+
+    <section class="rsvp">
+      <h2>Confirmación de Asistencia</h2>
+      <form id="rsvp-form">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="attendance">¿Asistirás?</label>
+        <select id="attendance" name="attendance" required>
+          <option value="">Selecciona una opción</option>
+          <option value="yes">Sí</option>
+          <option value="no">No</option>
+        </select>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>-->
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
