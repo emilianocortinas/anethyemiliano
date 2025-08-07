@@ -74,7 +74,7 @@ body {
   background-position: center;
   position: relative;
   padding-top: 0px;
-
+  margin-left: -7%;
 }
 
 .fotoap1 {
@@ -84,33 +84,34 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  margin-left: 7px;
 
 }
 
 .hoja1 {
   background-image: url(ruta/a/hoja1.png);
-  height: 45vh;
-  width: 55vh;
+  height: 40vh;
+  width: 45vh;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-
+  margin-left: 40px;
 }
 
 .hoja2 {
   background-image: url(ruta/a/hoja2.png);
-  height: 45vh;
-  width: 55vh;
+  height: 40vh;
+  width: 45vh;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-
+  margin-left: 40px;
 }
 
 .contador {
   background-image: url(ruta/a/contador.png);
   height: 45vh;
-  width: 55vh;
+  width: 58vh;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -119,11 +120,12 @@ body {
 
 .itinerary {
   background-image: url(ruta/a/itinerario.png);
-  height: 80vh;
-  width: 55vh;
+  height: 75vh;
+  width: 53vh;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  margin-left: 0px;
 
 }
 
@@ -385,6 +387,7 @@ html {
     background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
     pointer-events: none;
     padding-top: 0%;
+
   }
 
   .fechaboda {
@@ -440,7 +443,7 @@ html {
     position: relative;
     width: 350px;
     height: 300px;
-    margin: auto;
+    margin-left: 5%;
   }
 
   .polaroid {
